@@ -10,9 +10,9 @@ import NoMatch from './pages/NoMatch';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-      <Router basename='/'>
+    <Router basename='/'>
         <Routes>
-          <Route path='ban-chang-pab-fn' element={<BusinessCard />} />
+          <Route path='/ban-chang-pab-fn' element={<BusinessCard/>}/>
           <Route path="*" element={<NoMatch />} />
         </Routes>
       </Router>
