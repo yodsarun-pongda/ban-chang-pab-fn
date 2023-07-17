@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/ban-chang-pab-fn/static/css/main.073c9b0a.css",
-    "main.js": "/ban-chang-pab-fn/static/js/main.ba7beffb.js",
+    "main.js": "/ban-chang-pab-fn/static/js/main.b5a557b2.js",
     "static/js/787.ac8151ed.chunk.js": "/ban-chang-pab-fn/static/js/787.ac8151ed.chunk.js",
     "static/media/logo.svg": "/ban-chang-pab-fn/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/ban-chang-pab-fn/index.html",
     "main.073c9b0a.css.map": "/ban-chang-pab-fn/static/css/main.073c9b0a.css.map",
-    "main.ba7beffb.js.map": "/ban-chang-pab-fn/static/js/main.ba7beffb.js.map",
+    "main.b5a557b2.js.map": "/ban-chang-pab-fn/static/js/main.b5a557b2.js.map",
     "787.ac8151ed.chunk.js.map": "/ban-chang-pab-fn/static/js/787.ac8151ed.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.073c9b0a.css",
-    "static/js/main.ba7beffb.js"
+    "static/js/main.b5a557b2.js"
   ]
 }
