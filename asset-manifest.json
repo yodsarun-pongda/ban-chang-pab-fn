@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/ban-chang-pab-fn/static/css/main.1d2d9d2a.css",
-    "main.js": "/ban-chang-pab-fn/static/js/main.ffe1421c.js",
+    "main.css": "/ban-chang-pab-fn/static/css/main.e204433d.css",
+    "main.js": "/ban-chang-pab-fn/static/js/main.3e3e6d29.js",
     "static/js/787.ac8151ed.chunk.js": "/ban-chang-pab-fn/static/js/787.ac8151ed.chunk.js",
     "static/media/construction-lol.gif": "/ban-chang-pab-fn/static/media/construction-lol.d7b1b67564f88d9360a9.gif",
     "index.html": "/ban-chang-pab-fn/index.html",
-    "main.1d2d9d2a.css.map": "/ban-chang-pab-fn/static/css/main.1d2d9d2a.css.map",
-    "main.ffe1421c.js.map": "/ban-chang-pab-fn/static/js/main.ffe1421c.js.map",
+    "main.e204433d.css.map": "/ban-chang-pab-fn/static/css/main.e204433d.css.map",
+    "main.3e3e6d29.js.map": "/ban-chang-pab-fn/static/js/main.3e3e6d29.js.map",
     "787.ac8151ed.chunk.js.map": "/ban-chang-pab-fn/static/js/787.ac8151ed.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.1d2d9d2a.css",
-    "static/js/main.ffe1421c.js"
+    "static/css/main.e204433d.css",
+    "static/js/main.3e3e6d29.js"
   ]
 }
