@@ -2,20 +2,13 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import reportWebVitals from './reportWebVitals';
-import { BrowserRouter as Router, Route, Routes} from 'react-router-dom'
 
-import BusinessCard from './component/BusinessCard';
-import NoMatch from './pages/NoMatch';
+import BusinessCard from './pages/BusinessCard';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <Router basename='/'>
-        <Routes>
-          <Route path='/ban-chang-pab-fn' element={<BusinessCard/>}/>
-          <Route path="*" element={<NoMatch />} />
-        </Routes>
-      </Router>
+    <BusinessCard/>
   </React.StrictMode>
 );
 
