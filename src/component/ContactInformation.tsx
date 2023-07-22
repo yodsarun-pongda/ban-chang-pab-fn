@@ -1,4 +1,6 @@
 import React, {useEffect, useState} from "react";
+import Greeting from "./Greeting";
+
 
 function ContactInformation({name, location} : Contact) {
     const [actualName, setActualName] = useState("ไม่ทราบชื่อ");
@@ -11,7 +13,10 @@ function ContactInformation({name, location} : Contact) {
 
     return (
         <React.StrictMode>
-            <h1 className="contact-name">{actualName}</h1>
+            <div className="contact-name-container">
+                <p className="contact-name">{<Greeting/>}&ensp;</p>
+                <h1 className="contact-name">{actualName}</h1>
+            </div>
 
             <div className="location">
                 <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">

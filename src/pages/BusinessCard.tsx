@@ -1,10 +1,9 @@
 import React, { useEffect, useState } from 'react';
-
-// component
 import ProfilePicture from "../component/ProfilePicture";
 import ContactInformation from "../component/ContactInformation";
 import SocialMedia from "../component/SocialMedia";
 import '../style/BusinessCard.css';
+import '../style/Notices.css';
 
 const constant = require('./../constant/CommonConstant');
 const _ = require("lodash");
@@ -26,14 +25,13 @@ function BusinessCard() {
             setIsLoading(true);
             fetchData();
         }
-
-        if (contact !== undefined) {
-            console.log(contact)
-        }
     }, [contact, isLoading]);
 
     return (
         <section className="profile">
+            <div id="scroll-container">
+                <div id="scroll-text">Notices!!: Under development.</div>
+            </div>
             <div className="main-content">
                 <div className="details">
                     {/*Profile picture*/}

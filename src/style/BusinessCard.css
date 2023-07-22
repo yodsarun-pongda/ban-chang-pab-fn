@@ -67,13 +67,37 @@ body {
     margin-bottom: 0;
 }
 
+.contact-name-container {
+    width: 90%;
+    margin: auto;
+}
+
 .contact-name {
     margin: 1rem 0;
     font-weight: 400;
-    font-size: 1rem;
+    font-size: 3.5rem;
+    display: inline-block;
+}
+
+p.contact-name {
+    font-size: 2rem;
 }
 
 @media only screen and (max-width: 500px)  {
+    .contact-name {
+        font-size: 2.5rem;
+        display: grid;
+    }
+
+    p.contact-name {
+        font-size: 1.3rem;
+        margin-bottom: 0;
+    }
+
+    h1.contact-name {
+        margin-top: 0;
+    }
+
     .details {
         padding: 5rem 0;
     }

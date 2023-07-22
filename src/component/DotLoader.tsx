@@ -1,4 +1,4 @@
-import './../style/loading_dot.css';
+import '../style/LoadingDot.css';
 
 function DotLoader() {
     return (
