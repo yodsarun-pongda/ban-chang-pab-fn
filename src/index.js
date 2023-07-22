@@ -8,7 +8,7 @@ import BusinessCard from './pages/BusinessCard';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <BusinessCard/>
+      <BusinessCard/>
   </React.StrictMode>
 );
 

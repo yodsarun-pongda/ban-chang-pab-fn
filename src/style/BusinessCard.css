@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit&display=swap');
+
+body {
+    background-color: #fff;
+    font-family: 'Kanit', sans-serif;
+}
+
+.main-content {
+    color: white;
+    display: flex;
+    min-height: 100dvh;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(to right, #0d3b66, #00afb9);
+}
+
+.details {
+    text-align: center;
+    width: 100dvw;
+    padding: 5rem 6rem;
+}
+
+.contact-pic {
+    height: 6rem;
+    width: 6rem;
+    border-radius: 50%;
+    border: 2px solid #fff;
+}
+
+.location p {
+    display: inline-block;
+}
+
+.location svg {
+    vertical-align: middle;
+}
+
+.contact {
+    gap: 2px;
+    display: flex;
+    max-width: 75%;
+    flex-wrap: wrap;
+    text-align: center;
+    flex-direction: row;
+    margin: 20px auto auto;
+    justify-content: space-between;
+}
+
+.contact .col-4 {
+    width: 20%;
+    text-align: center;
+}
+
+.contact .col-4 p, a {
+    padding: 8px;
+    display: block;
+    margin-inline-end: 0;
+    text-decoration: none;
+    margin-block-end: 1em;
+    margin-inline-start: 0;
+    margin-block-start: 1em;
+    color: white !important;
+}
+
+.contact .col-4 img {
+    width: 30%;
+    margin-bottom: 0;
+}
+
+.contact-name {
+    margin: 1rem 0;
+    font-weight: 400;
+    font-size: 1rem;
+}
+
+@media only screen and (max-width: 500px)  {
+    .details {
+        padding: 5rem 0;
+    }
+
+    .contact {
+        gap: 20px;
+    }
+
+    .contact .col-4 {
+        width: 45%;
+    }
+
+    .contact .col-4 img {
+        width: 35%;
+    }
+
+    .contact .col-4 p, a {
+        margin: 0;
+        padding: 0;
+    }
+}
