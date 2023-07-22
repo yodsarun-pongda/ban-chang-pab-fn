@@ -1,19 +1,15 @@
 {
   "files": {
-    "main.css": "/ban-chang-pab-fn/static/css/main.a7c648dc.css",
-    "main.js": "/ban-chang-pab-fn/static/js/main.e858737d.js",
+    "main.css": "/ban-chang-pab-fn/static/css/main.64b73efc.css",
+    "main.js": "/ban-chang-pab-fn/static/js/main.bd1396eb.js",
     "static/js/787.ac8151ed.chunk.js": "/ban-chang-pab-fn/static/js/787.ac8151ed.chunk.js",
-    "static/media/profile-pic.png": "/ban-chang-pab-fn/static/media/profile-pic.9b21bf1a9e7fa327cbb6.png",
-    "static/media/instagram.png": "/ban-chang-pab-fn/static/media/instagram.5480e39fea1003618fe5.png",
-    "static/media/line.png": "/ban-chang-pab-fn/static/media/line.472e330ab06f3b90ca97.png",
-    "static/media/facebook.png": "/ban-chang-pab-fn/static/media/facebook.cc6d7ce802f270cfb96c.png",
     "index.html": "/ban-chang-pab-fn/index.html",
-    "main.a7c648dc.css.map": "/ban-chang-pab-fn/static/css/main.a7c648dc.css.map",
-    "main.e858737d.js.map": "/ban-chang-pab-fn/static/js/main.e858737d.js.map",
+    "main.64b73efc.css.map": "/ban-chang-pab-fn/static/css/main.64b73efc.css.map",
+    "main.bd1396eb.js.map": "/ban-chang-pab-fn/static/js/main.bd1396eb.js.map",
     "787.ac8151ed.chunk.js.map": "/ban-chang-pab-fn/static/js/787.ac8151ed.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a7c648dc.css",
-    "static/js/main.e858737d.js"
+    "static/css/main.64b73efc.css",
+    "static/js/main.bd1396eb.js"
   ]
 }
