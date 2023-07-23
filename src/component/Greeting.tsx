@@ -1,31 +1,26 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
+import * as GreetingConstant from './../constant/GreetingMessage';
+import * as CommonConstant from './../constant/CommonConstant';
 
-const COMMA = ",";
+
 function Greeting() {
-    const getMessage = (hour: number, minute: number) => {
-        if ( hour >= 0 && hour < 4)
-            return 'Good Night';
-        else if ( hour >= 6 && hour < 12 )
-            return 'Good Morning';
-        else if ( hour === 12 && minute === 0 )
-            return 'Good Morning';
-        else if ( hour === 12 && minute > 0 )
-            return 'Good Afternoon';
-        else if ( hour === 18 && minute === 0 )
-            return 'Good Afternoon';
-        else if ( hour === 18 && minute > 0 )
-            return 'Good Evening';
-        else if ( hour > 18 && hour < 0 )
-            return 'Good Evening';
+    const [greeting, setGreeting] = useState("Hello");
+    const getMessage = (hour: number) => {
+        GreetingConstant.TIME_GREETINGS.map((obj, i) => {
+            if (hour >= obj.time) {
+                setGreeting(obj.message);
+                return;
+            }
+        });
     }
 
-    let hr = new Date().getHours();
-    let mi = new Date().getMinutes();
-    let greeting = getMessage(hr, mi);
+    useEffect(() => {
+        getMessage(new Date().getHours());
+    }, []);
 
     return (
         <>
-            {greeting}{COMMA}
+            {greeting}{CommonConstant.COMMA}
         </>
     )
 }
